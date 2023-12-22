@@ -1,0 +1,55 @@
+footer {
+    margin-top: 95px;
+    background-color: var( --footer-bg-color);
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 45px;
+}
+
+footer h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--dark-gray);
+}
+
+footer p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--light-gray);
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.footer__register-field__searchbar {
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 12px 16px;
+    width: 25%;
+    margin-bottom: 32px;
+}
+
+.footer__register-field__searchbar::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer__copyright {
+    font-size: 16px;
+    font-weight: 400;
+    color: #98A2B3;
+}
+
+#register-button {
+    background-color: var(--red);
+    color: var(--bg-color);
+    padding: 12px 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+}
+
+#register-button:hover {
+    cursor: pointer;
+}

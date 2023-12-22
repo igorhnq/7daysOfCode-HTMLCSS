@@ -1,0 +1,35 @@
+.colab {
+    background-color: rgba(195, 25, 25, 0.03);
+    border-radius: 16px;
+    margin: 0 5%;
+    padding: 64px;
+    text-align: center;
+}
+
+.colab h3 {
+    color: var(--red);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.colab h2 {
+    color: var(--dark-grey);
+    font-size: 32px;
+    font-weight: 500;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.colab h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--dark-grey);
+    padding-top: 16px;
+    padding-bottom: 4px;
+}
+
+.colab p {
+    font-size: 14px;
+    color: var(--light-gray);
+    font-weight: 400;
+}

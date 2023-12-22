@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 5%;
+
+}
+
+nav {
+    margin-left: 0 auto;
+}
+
+ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--light-gray);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header h2 {
+    color: #3A404E;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.logo, .login {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.register {
+    background-color: var(--red);
+    border-radius: 8px;
+    color: var(--bg-color);
+    padding: 10px 18px;
+}
+

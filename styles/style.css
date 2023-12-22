@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./about.css);
+@import url(./vacancie.css);
+@import url(./colab.css);
+@import url(./footer.css);
+
+:root {
+    --bg-color: #FFFFFF;
+    --footer-bg-color: #F9FAFB;
+    --light-gray: #667085;
+    --border-gray: #EAECF0;
+    --dark-gray: #101828;
+    --red: #8E2424;
+}
+
+body {
+    background-color: var(--bg-color);
+}
